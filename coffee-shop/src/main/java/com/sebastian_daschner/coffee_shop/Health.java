@@ -20,7 +20,7 @@ public class Health implements HealthCheck {
 
 	@Override
     public HealthCheckResponse call() {
-        logger.log("Calling HealthCheckResponse");
+        logger.info("Calling HealthCheckResponse");
         return HealthCheckResponse.up("coffee-shop");
 
     }
